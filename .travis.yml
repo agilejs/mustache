@@ -21,8 +21,8 @@ before_script:
 # more information on automatic deployment to heroku
 deploy:
   provider: heroku
-  app: movie-database-node
+  app: agilejs-mustache
   api_key:
-    secure: ! 'VM4D68593b50AlKIJLnBJjukmf6XzR0lX8t/GBT8JBklxnXQKHUcfwNjE9jf
-      mra/rYws45pRyWjJzITPHScTtmK82bcj+5FCoB4sjEvOqAKWAcFPSbK+oJ/g
-      P3UPGArmHC73gZ/YFoD6TCzRJDLOYCekaiscPEQr9Bs9cwXCRp0='
+  - secure: ! 'ebV2SvICXt6D2fePh5mDFKV7yfNVzz2+/TGl9dvgMRUYhBzglKSohhAmkubm
+      FKMPRA0KCYAhsTpIaPVEJC3KVNx8OMF395mjcvWx5ZOLNHiE27xC8aNqC+aU
+      /RdWKIuJ0Tfo1AWBkMBjXSx3wAQo78XvVi7jZ2kRwV4MLeqJC9M='
