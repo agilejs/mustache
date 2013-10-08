@@ -5,7 +5,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="movie in movies | orderBy:predicate = 'title'">
+        <tr ng-repeat="movie in movies | orderBy:predicate = 'title':reverse">
             <td>
                 <a href="#" ng-href="/movies/{{movie.id}}">
                     {{movie.title}}
