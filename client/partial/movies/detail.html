@@ -3,6 +3,8 @@
 <dl class="dl-horizontal">
   <dt>Description</dt>
   <dd>{{movie.description}}</dd>
+  <dt>Year of release</dt>
+  <dd>{{movie.releaseYear || 'unknown'}}</dd>
 </dl>
 
 <a href="/movies/{{movie.id}}/edit" title="Edit movie" class="btn">
